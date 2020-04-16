@@ -11,8 +11,9 @@ pre,
 li {margin: 10px}
 
 .hero.is-primary {
-background: linear-gradient(to top right, #524ad0 10%, #D099FA);
+background:#3273dc;
 }
+
 
 .box {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);

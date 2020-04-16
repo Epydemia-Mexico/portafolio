@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+     <h3 class="title is-3">Trabajos:</h3>
+    {% for work in works %}
+      <div class="box">
+         <span class="icon is-large">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-ban fa-briefcase"></i>
+          </span>
+        </span>
+        <h4 id="const" class="title is-3">{{ work.name }}</h4>
+      <p><b>Descripción: </b>{{ work.description }}</p>
+      <p>Del {{ work.start_year }} a {{ work.end_year }}</p>
+      </div>
+    {% endfor %}
+{% endblock %}
